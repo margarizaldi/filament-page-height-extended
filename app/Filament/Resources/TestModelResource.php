@@ -20,6 +20,10 @@ class TestModelResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
 
+    protected static ?string $navigationLabel = 'Using Tabs';
+
+    protected static ?string $slug = 'using-tabs';
+
     public static function form(Form $form): Form
     {
         return $form
